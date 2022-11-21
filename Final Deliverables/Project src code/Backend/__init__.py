@@ -42,4 +42,4 @@ def create_app():
     def home():
         return app.send_static_file('index.html')
 
-    return 
+    return app
